@@ -10,4 +10,10 @@ html {
 body {
   max-width: 320px;
   margin: auto;
+  font-family: sans-serif 100px;
+  background-image: url(../img/lignes_code_ecran.jpg);
+}
+
+.mix-blend-mode{
+  mix-blend-mode: darken;
 }
