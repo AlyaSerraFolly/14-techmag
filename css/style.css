@@ -7,22 +7,83 @@ html {
   scroll-behavior: smooth;
 }
 
+header {
+  background-image: url(../img/lignes_code_ecran.jpg);
+  color: white;
+  border-color: white;
+  border-style: solid;
+  padding: 30px 40px 40px 30px;
+  text-align:center;
+}
+
 body {
   max-width: 375px;
   margin: auto;
-  background-image: url(../img/lignes_code_ecran.jpg);
+  background-color: black;
+  color: black;
+  text-align: center;
+  margin: 30px;
 }
 
-.mix-blend-mode{
-  background-size:cover;
-  display: flex;
-  mix-blend-mode: multiply;
+figure {
+  box-shadow: 10px black;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 50px;
 }
 
-div {
-  color: white;
+img {
+  width: 100%;
+  height: auto;
+}
+
+h1 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 100px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 50px;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100px;
+}
+
+
+div,
+p {
+ text-align: left;
+}
+
+article {
+  background-color: white;
+  padding: 10px;
+  text-align:center;
+}
+
+footer {
   border-color: white;
   border-style: solid;
+  border-width: 2px;
+  color: white;
+}
+
+header
+span {
+  color: #2afca6;
+  font-style: italic;
+}
+
+main {
+  padding-top: 25px;
+}
+
+main
+div {
+  background-color: #2afca6;
+  color: black;
+  padding: 30px;
+  margin-bottom: 25px;
 }
