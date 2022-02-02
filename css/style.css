@@ -13,7 +13,6 @@ header {
   border-color: white;
   border-style: solid;
   padding: 30px 40px 40px 30px;
-  text-align:center;
 }
 
 body {
@@ -64,7 +63,7 @@ article {
 }
 
 footer {
-  border-color: white;
+  border-color: #2afca6;
   border-style: solid;
   border-width: 2px;
   color: white;
