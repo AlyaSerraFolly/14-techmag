@@ -27,7 +27,7 @@ body {
   background-color: black;
   color: black;
   text-align: center;
-  margin: 30px;
+  margin: 25px;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -47,12 +47,12 @@ figure {
   font-family: 'Open Sans', sans-serif;
   font-weight: 50px;
   box-shadow: 3px 3px 9px lightgrey;
+  margin: 20px;
 }
 
 article {
   background-color: white;
   padding: 10px;
-  text-align:center;
   padding-bottom: 30px;
 }
 
@@ -88,10 +88,14 @@ footer
 div {
   border-color: #2afca6;
   border-style: solid;
-  border-width: 2px;
+  border-width: 3px;
   color: white;
 }
 
 footer {
   margin: 20px;
+}
+
+.button {
+  text-align: center;
 }
