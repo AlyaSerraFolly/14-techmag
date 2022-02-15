@@ -12,7 +12,7 @@ header {
   color: white;
   border-color: white;
   border-style: solid;
-  padding: 30px 40px 40px 5px;
+  padding: 30px 40px 25px 5px;
 }
 
 header
@@ -76,7 +76,7 @@ img {
 h1 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 100px;
-  padding-left: 5px;
+  padding-left: 25px;
 }
 
 h2 {
@@ -118,4 +118,14 @@ padding: 5px;
 .title {
   color: rgb(175, 175, 175);
 
+}
+
+strong {
+  color: #2afca6;
+  font-family: 'Open Sans', sans-serif;
+}
+
+em {
+  color: rgb(159, 159, 159);
+  font-style: normal;
 }
