@@ -22,12 +22,12 @@ span {
 }
 
 body {
-  max-width: 375px;
-  margin: auto;
   background-color: black;
   color: black;
-  margin: 25px;
   font-family: 'Open Sans', sans-serif;
+  max-width: 320px;
+  margin: auto;
+  padding-top: 25px;
 }
 
 p {
